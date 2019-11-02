@@ -13,7 +13,6 @@ body {
   padding: 0;
   border: 0;
   font-size: 100%;
-  /* vertical-align: baseline; */
   font-family: "Comfortaa", cursive;
   display: flex;
   flex-direction: column;
@@ -49,7 +48,6 @@ header {
   display: flex;
   text-align: right;
   flex-basis: 100%;
-  /* box-sizing: border-box; */
   flex-grow: 0;
   flex-flow: row wrap;
   justify-content: flex-end;
@@ -81,8 +79,6 @@ a:active {
 }
 
 .intro {
-  /* background-color: #00cece;
-    background-image: linear-gradient(-180deg, #00cece, #00adad); */
   color: rgb(3, 3, 3);
   background-image: url("img/background5.jpg");
   background-position: center;
@@ -97,11 +93,6 @@ a:active {
 .intro p {
   color: black;
 }
-
-/* .right-intro img {
-    width: 100%;
-    height: 100%;
-  } */
 
 ul li {
   line-height: 30px;
@@ -232,14 +223,6 @@ hr {
   border: none;
   background-color: #dadada;
   width: 100%;
-}
-
-.right-contacts a.btn-twitter {
-  color: #00acee;
-  text-decoration: none;
-}
-a.btn-twitter:hover {
-  text-decoration: underline;
 }
 
 .left-contacts a {
