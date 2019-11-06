@@ -3,7 +3,7 @@ div.print {
 }
 
 @media print {
-  header,
+  div.header,
   footer,
   div.main {
     display: none;
