@@ -39,23 +39,23 @@
   }
 }
 
-@media (max-width: 320px) {
-  .intro {
+/* @media (max-width: 320px) {
+  .header {
     padding-top: 200px;
     height: 450px;
   }
 }
 
 @media (min-width: 321px) and (max-width: 348px) {
-  .intro {
+  .header {
     padding-top: 185px;
     height: 430px;
   }
 }
 
 @media (min-width: 348px) and (max-width: 370px) {
-  .intro {
+  .header {
     padding-top: 150px;
     height: 400px;
   }
-}
+} */

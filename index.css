@@ -14,8 +14,8 @@ body {
   border: 0;
   font-size: 100%;
   font-family: "Comfortaa", cursive;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
   min-width: 250px;
 }
 
@@ -23,15 +23,7 @@ body {
   max-height: 85px;
 }
 
-header {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-}
-
-.header {
+.header-inner {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #f4cbcf;
@@ -78,19 +70,19 @@ a:active {
   text-decoration: underline;
 }
 
-.intro {
+.header {
   color: rgb(3, 3, 3);
   background-image: url("img/background5.jpg");
   background-position: center;
   background-size: cover;
-  padding-top: 100px;
+  /* padding-top: 100px; */
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0 100%);
   position: relative;
   height: 350px;
   text-align: center;
 }
 
-.intro p {
+.header p {
   color: black;
 }
 
